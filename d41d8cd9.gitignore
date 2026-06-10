@@ -1,0 +1,23 @@
+# --- SECURITY ---
+# Loại bỏ tất cả các file .env ở bất kỳ đâu trong project
+.env
+.env.local
+.env.*.local
+
+# --- PYTHON (Backend) ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# --- NODE (Frontend) ---
+node_modules/
+dist/
+build/
+.eslintcache
+
+# --- OS ---
+.DS_Store
+Thumbs.db

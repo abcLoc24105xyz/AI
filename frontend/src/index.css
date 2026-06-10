@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #0b0f19;
+}
+
+.dashboard-bg {
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(59,130,246,.15),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(168,85,247,.15),
+      transparent 30%
+    ),
+    #0b0f19;
+}
